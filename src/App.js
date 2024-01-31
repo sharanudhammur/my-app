@@ -54,6 +54,7 @@ function App() {
   Promise.all(apiList).then((val) => console.log(val))
 
   console.log("hello")
+  console.log("hello")
 
   // const makeApicall = ()=>{
   //   return Promise(())
