@@ -55,6 +55,8 @@ function App() {
 
   console.log("hello")
   console.log("hello")
+  console.log("hello")
+  console.log("hello")
 
   // const makeApicall = ()=>{
   //   return Promise(())
