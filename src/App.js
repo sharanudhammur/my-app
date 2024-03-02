@@ -14,7 +14,7 @@ function App() {
   // }
 
   // console.log(callback(cb).then)
-  const name = "hello1"
+  const name = "hello11"
 
   const callBack = new Promise((resolve, reject) => {
     // resolve("data")
