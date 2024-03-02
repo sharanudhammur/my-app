@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import { useLayoutEffect, PureComponent } from 'react';
 
 function App() {
 
@@ -12,7 +14,7 @@ function App() {
   // }
 
   // console.log(callback(cb).then)
-  const name = "hello"
+  const name = "hello1"
 
   const callBack = new Promise((resolve, reject) => {
     // resolve("data")
@@ -53,20 +55,15 @@ function App() {
 
   Promise.all(apiList).then((val) => console.log(val))
 
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-  console.log("hello")
-
   // const makeApicall = ()=>{
   //   return Promise(())
   // }
+
+  useLayoutEffect(() => {
+    console.log("2")
+  }, [])
+
+  console.log("1")
 
   return (
     <div className="App">
