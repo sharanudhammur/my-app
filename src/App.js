@@ -47,6 +47,8 @@ function App() {
     })
   }
 
+  console.log("test")
+
   adapter()
 
   apiCall().then((val) => console.log(val))
