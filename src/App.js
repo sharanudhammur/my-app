@@ -34,6 +34,7 @@ function App() {
     const response = apiCall(url)
     response.then((res) => {
       console.log(res)
+      console.log(res)
     })
   }
 
