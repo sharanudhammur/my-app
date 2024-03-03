@@ -36,6 +36,7 @@ function App() {
       console.log(res)
       console.log(res)
       console.log(res)
+      console.log(res)
     })
   }
 
