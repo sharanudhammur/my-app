@@ -12,6 +12,7 @@ const Login = () => {
     })
 
     console.log("test console")
+    console.log("test console")
 
     const [loading, setLoading] = useState(false)
     const [errorMessage, setErrorMessage] = useState(null)
